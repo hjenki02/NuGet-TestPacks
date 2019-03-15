@@ -12,7 +12,7 @@
     <description>Package description</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2019</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>Build#$build$</tags>
     <dependencies>
       <dependency id="SampleDependency" version="1.0" />
     </dependencies>
