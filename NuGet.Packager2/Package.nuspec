@@ -1,36 +1,20 @@
 <?xml version="1.0"?>
-<package > 
+<package >
   <metadata>
-    <id>NuGet.Packager2</id>
-    <version>1.0.0</version>
-    <title>NuGet.Packager2</title>
+    <id>Get-Hello2</id>
+    <version>1.0.1</version>
     <authors>hjenkins</authors>
-    <owners></owners>
-    <description>
-      A long description of the package. This shows up in the right pane of the Add Package Dialog as well as in the Package Manager Console when listing packages using the Get-Package command.
-    </description>
-    <releaseNotes>
-    </releaseNotes>
-    <summary>
-      A short description of the package. If specified, this shows up in the middle pane of the Add Package Dialog. If not specified, a truncated version of the description is used instead.
-    </summary>
-    <language>en-US</language>
-    <projectUrl>https://nuget.org/packages/NuGet.Packager2</projectUrl>
-    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <owners>hjenkins</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright  2019</copyright>
+    <description>Hakim's test package v1.0.1</description>
+    <releaseNotes>Release Notes Changes v1.0.1</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Tag1 Tag2</tags>
     <dependencies>
-        <group targetFramework="net40">
-          <dependency id="log4net" version="1.2.10" />
-        </group>
+      <dependency id="SampleDependency" version="1.0" />
     </dependencies>
-    <references></references>
-    <tags></tags>
   </metadata>
-  <files>
-    <file src="lib\" target="lib" />
-    <file src="tools\" target="tools" />
-    <file src="content\" target="content" />
-  </files>
 </package>
