@@ -56,6 +56,8 @@
     <None Include="NuGet.exe" />
     <None Include="NuGet.config" />
     <None Include="Package.nuspec" />
+    <None Include="Package.psd1" />
+    <None Include="Package.psm1" />
     <None Include="tools\init.ps1" />
     <None Include="tools\install.ps1" />
     <None Include="tools\uninstall.ps1" />
@@ -64,6 +66,9 @@
     <Folder Include="content\" />
     <Folder Include="lib\" />
     <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Get-Hello2</id>
-    <version>1.0.1</version>
+    <id>Package</id>
+    <version>1.0.0</version>
     <authors>hjenkins</authors>
     <owners>hjenkins</owners>
     <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
     <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Hakim's test package v1.0.1</description>
-    <releaseNotes>Release Notes Changes v1.0.1</releaseNotes>
+    <description>Package description</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Tag1 Tag2</tags>
     <dependencies>
