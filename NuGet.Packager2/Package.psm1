@@ -5,4 +5,5 @@ Function Package{
 Write-Host "Hello from my Azure DevOps Services Package."
 Write-Host "Testing"
 Write-Host "Testing2"
+Write-Host "Testing3"
 }
